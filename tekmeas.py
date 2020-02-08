@@ -21,7 +21,7 @@ scope.write("MEASUrement:MEAS2:TYPE CRMS")
 scope.write("MEASUrement:MEAS2:STATE ON")
 time.sleep(10)
 frequency,rms = [],[]
-for i in range(200):
+for i in range(2000):
     a = scope.query('measurement:meas1:value?')
     b = scope.query('measurement:meas2:value?')
     time.sleep(0.1)
