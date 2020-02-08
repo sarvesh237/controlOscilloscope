@@ -2,7 +2,6 @@ import visa
 import numpy as np
 import time
 import matplotlib.pyplot as plt
-
 rm = visa.ResourceManager('@py')
 #print(rm.list_resources())
 scope = rm.open_resource('USB0::1689::872::C038299::0::INSTR')
