@@ -19,7 +19,7 @@ scope.write("MEASUrement:MEAS2:STATE ON")
 time.sleep(10)
 plt.ion()
 fig = plt.figure()
-ax = fig.add_subplot(111)
+a = fig.add_subplot(111)
 
 def ploti():    
     plt.scatter(rms, frequency) 
