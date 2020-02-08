@@ -1,5 +1,5 @@
 # controlOscilloscope
-Control tektronix osciloscope with pyvisa in linux.
+Control tektronix osciloscope with pyvisa in linux. Tested with tektronix 2014B and python 3.7.5
 # usage guidelines
 Replace line #7 with your device details as below :
 
